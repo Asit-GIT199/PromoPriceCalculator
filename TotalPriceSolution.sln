@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotalPricePromoCalculator",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotalPricePromoCalculator.UnitTest", "TotalPricePromoCalculator.UnitTest\TotalPricePromoCalculator.UnitTest.csproj", "{6928CE73-6F43-4405-9040-B2FE395AF709}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromoLibrary", "PromoLibrary\PromoLibrary.csproj", "{1EAAC87F-B046-42BC-937B-7DDCD25B3060}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6928CE73-6F43-4405-9040-B2FE395AF709}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6928CE73-6F43-4405-9040-B2FE395AF709}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6928CE73-6F43-4405-9040-B2FE395AF709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EAAC87F-B046-42BC-937B-7DDCD25B3060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAAC87F-B046-42BC-937B-7DDCD25B3060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAAC87F-B046-42BC-937B-7DDCD25B3060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAAC87F-B046-42BC-937B-7DDCD25B3060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
