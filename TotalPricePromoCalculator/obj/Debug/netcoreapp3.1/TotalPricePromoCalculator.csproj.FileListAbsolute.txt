@@ -1,0 +1,11 @@
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\bin\Debug\netcoreapp3.1\TotalPricePromoCalculator.exe
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\bin\Debug\netcoreapp3.1\TotalPricePromoCalculator.deps.json
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\bin\Debug\netcoreapp3.1\TotalPricePromoCalculator.runtimeconfig.json
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\bin\Debug\netcoreapp3.1\TotalPricePromoCalculator.runtimeconfig.dev.json
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\bin\Debug\netcoreapp3.1\TotalPricePromoCalculator.dll
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\bin\Debug\netcoreapp3.1\TotalPricePromoCalculator.pdb
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\obj\Debug\netcoreapp3.1\TotalPricePromoCalculator.AssemblyInfoInputs.cache
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\obj\Debug\netcoreapp3.1\TotalPricePromoCalculator.AssemblyInfo.cs
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\obj\Debug\netcoreapp3.1\TotalPricePromoCalculator.dll
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\obj\Debug\netcoreapp3.1\TotalPricePromoCalculator.pdb
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\obj\Debug\netcoreapp3.1\TotalPricePromoCalculator.genruntimeconfig.cache
