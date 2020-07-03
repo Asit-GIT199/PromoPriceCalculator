@@ -901,6 +901,29 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "PromoLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PromoLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PromoLibrary.dll": {}
+        }
+      },
+      "TotalPricePromoCalculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "PromoLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TotalPricePromoCalculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TotalPricePromoCalculator.dll": {}
+        }
       }
     }
   },
@@ -3494,11 +3517,23 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "PromoLibrary/1.0.0": {
+      "type": "project",
+      "path": "../PromoLibrary/PromoLibrary.csproj",
+      "msbuildProject": "../PromoLibrary/PromoLibrary.csproj"
+    },
+    "TotalPricePromoCalculator/1.0.0": {
+      "type": "project",
+      "path": "../TotalPricePromoCalculator/TotalPricePromoCalculator.csproj",
+      "msbuildProject": "../TotalPricePromoCalculator/TotalPricePromoCalculator.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "PromoLibrary >= 1.0.0",
+      "TotalPricePromoCalculator >= 1.0.0",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
@@ -3529,7 +3564,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Papun\\Desktop\\Mearsk\\TotalPriceSulution\\PromoLibrary\\PromoLibrary.csproj": {
+              "projectPath": "C:\\Users\\Papun\\Desktop\\Mearsk\\TotalPriceSulution\\PromoLibrary\\PromoLibrary.csproj"
+            },
+            "C:\\Users\\Papun\\Desktop\\Mearsk\\TotalPriceSulution\\TotalPricePromoCalculator\\TotalPricePromoCalculator.csproj": {
+              "projectPath": "C:\\Users\\Papun\\Desktop\\Mearsk\\TotalPriceSulution\\TotalPricePromoCalculator\\TotalPricePromoCalculator.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
