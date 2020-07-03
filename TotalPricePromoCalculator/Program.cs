@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TotalPricePromoCalculator.Enums;
 using TotalPricePromoCalculator.Models;
 using TotalPricePromoCalculator.Repository;
+using TotalPricePromoCalculator.Services;
 
 namespace TotalPricePromoCalculator
 {
@@ -14,12 +15,19 @@ namespace TotalPricePromoCalculator
             IOrderRepository OrderRepository = new OrderRepository();
             var allOrders = OrderRepository.GetAllOrders();
 
-            foreach (var ord in allOrders)
+            ITotalPriceCalculatorService<Product> totalPriceService = new TotalPriceCalculatorService();
+            foreach (var order in allOrders)
             {
-                Console.WriteLine($"Order id {ord.OrderId}");                
+                foreach (var ord in order.ProductList)
+                {
+                    Console.WriteLine($"For Order Id {order.OrderId} for {ord.ProductName} the quantity is {ord.ProductQuantity}");
+
+                }
+                Console.WriteLine($"Total price for Order: {order.OrderId} is {totalPriceService.TotalPriceCalculator(order.ProductList)}");
+                Console.WriteLine("---------------------------");
             }
 
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
         }
     }
 }

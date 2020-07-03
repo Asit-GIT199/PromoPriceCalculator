@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "TotalPricePromoCalculator/1.0.0": {
+        "dependencies": {
+          "PromoLibrary": "1.0.0"
+        },
         "runtime": {
           "TotalPricePromoCalculator.dll": {}
+        }
+      },
+      "PromoLibrary/1.0.0": {
+        "runtime": {
+          "PromoLibrary.dll": {}
         }
       }
     }
   },
   "libraries": {
     "TotalPricePromoCalculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PromoLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

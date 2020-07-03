@@ -9,3 +9,7 @@ C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\obj\D
 C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\obj\Debug\netcoreapp3.1\TotalPricePromoCalculator.dll
 C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\obj\Debug\netcoreapp3.1\TotalPricePromoCalculator.pdb
 C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\obj\Debug\netcoreapp3.1\TotalPricePromoCalculator.genruntimeconfig.cache
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\bin\Debug\netcoreapp3.1\PromoLibrary.dll
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\bin\Debug\netcoreapp3.1\PromoLibrary.pdb
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\obj\Debug\netcoreapp3.1\TotalPricePromoCalculator.csprojAssemblyReference.cache
+C:\Users\Papun\Desktop\Mearsk\TotalPriceSulution\TotalPricePromoCalculator\obj\Debug\netcoreapp3.1\TotalPricePromoCalculator.csproj.CopyComplete

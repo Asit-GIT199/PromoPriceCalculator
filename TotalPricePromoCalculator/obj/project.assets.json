@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "PromoLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PromoLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PromoLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PromoLibrary/1.0.0": {
+      "type": "project",
+      "path": "../PromoLibrary/PromoLibrary.csproj",
+      "msbuildProject": "../PromoLibrary/PromoLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "PromoLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Papun\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Papun\\Desktop\\Mearsk\\TotalPriceSulution\\PromoLibrary\\PromoLibrary.csproj": {
+              "projectPath": "C:\\Users\\Papun\\Desktop\\Mearsk\\TotalPriceSulution\\PromoLibrary\\PromoLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
