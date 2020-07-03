@@ -4,7 +4,8 @@ using System.Text;
 
 namespace TotalPricePromoCalculator.Services
 {
-    public interface ITotalPriceCalculatorService
+    public interface ITotalPriceCalculatorService<T> where T : class
     {
+        int TotalPriceCalculator(List<T> TList);
     }
 }
